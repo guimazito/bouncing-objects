@@ -15,22 +15,21 @@
       <div class="menu-item">
         <fieldset>
           <legend>Quantity</legend>
-            <input id="changeQuantityInput" type="number">
-            <button id="changeQuantityButton">OK</button>
+            <input id="quantity" name="quantity" type="range">
         </fieldset>
       </div>
 
       <div class="menu-item">
         <fieldset>
           <legend>Color</legend>
-          <input id="changeColorInput" type="color">
+          <input id="color" type="color">
         </fieldset>
       </div>
 
       <div class="menu-item">
         <fieldset>
           <legend>Form</legend>
-          <select name="form" id="form">
+          <select id="form" name="form">
             <option value="ball">Ball</option>
             <option value="triangle">Triangle</option>
             <option value="square">Square</option>
@@ -40,8 +39,8 @@
 
     </div>
 
-    <canvas></canvas>        
+    <canvas></canvas>
+
     <script src="static/js/main.js"></script>
   </body>
-
 </html>
