@@ -1,0 +1,43 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+  
+html {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    height: 100%;
+}
+  
+body {
+    overflow: hidden;
+    height: inherit;
+    background-color: gray;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.menu-item {
+    margin: 10px;
+}
+
+fieldset {
+    height: 40px;
+}
+
+#changeQuantityInput {
+    width: 50px;
+}
+
+#changeQuantityButton {
+    cursor: pointer;
+}
